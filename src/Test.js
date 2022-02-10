@@ -1,10 +1,14 @@
 import React from "react";
 
-function Test(){
+function Test(props){
+   // var text=props.name
     return(
         <div>
-            <h1>new component</h1>
-            <h2>hello world</h2>
+            {/* <h1>hello {props.name}</h1> */}
+           <h2>details of {props.name}</h2>
+           {/* <h2>details of {text}</h2> */}
+           <textarea name="" id="" cols="30" rows="10"></textarea>
+           <button>send</button>
         </div>
     )
 }
