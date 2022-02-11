@@ -5,6 +5,10 @@ import Test from './Test';
 import Demo from './Demo';
 import Check from './Check';
 import Class from './Class';
+import Usestate from './hooks/Usestate';
+import Counter from './hooks/Counter';
+import Customhook1 from './hooks/Customhook1';
+import Custominp from './hooks/Custominp';
 
 function App() {
 
@@ -24,7 +28,11 @@ function App() {
    
    
     <Check test="this is a "/> */}
-   <Class/>
+   {/* <Class/> */}
+   {/* <Usestate/>
+   <Counter></Counter>
+   <Customhook1></Customhook1> */}
+   <Custominp/>
     
     </div>
     
